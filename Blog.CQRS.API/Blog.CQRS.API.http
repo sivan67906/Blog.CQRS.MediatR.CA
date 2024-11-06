@@ -1,0 +1,6 @@
+@Blog.CQRS.API_HostAddress = http://localhost:5194
+
+GET {{Blog.CQRS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
