@@ -20,7 +20,6 @@ public class ProductRepository : IProductRepository
         return result.Entity;
     }
 
-
     public async Task<int> DeleteAsync(int id)
     {
         var result = await _blogCQRSDbContext.ProductList.Where(i => i.Id == id).ExecuteDeleteAsync();

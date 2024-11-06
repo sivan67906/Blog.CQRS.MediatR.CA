@@ -5,10 +5,13 @@ namespace Blog.CQRS.Application.Product.Queries.GetProductById;
 
 public class GetProductByIdQuery : IRequest<ProductDTO>
 {
-    public GetProductByIdQuery(int id)
+    //public GetProductByIdQuery(int id)
+    //{
+    //    Id = id;
+    //}
+    public GetProductByIdQuery()
     {
-        Id = id;
+        
     }
-
     public int Id { get; set; }
 }

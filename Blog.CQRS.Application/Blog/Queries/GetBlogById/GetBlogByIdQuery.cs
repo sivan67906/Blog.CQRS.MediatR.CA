@@ -5,9 +5,9 @@ namespace Blog.CQRS.Application.Blog.Queries.GetBlogById;
 
 public class GetBlogByIdQuery : IRequest<BlogDTO>
 {
-    public GetBlogByIdQuery(int id)
+    public GetBlogByIdQuery()
     {
-        Id = id;
+        
     }
 
     public int Id { get; set; }

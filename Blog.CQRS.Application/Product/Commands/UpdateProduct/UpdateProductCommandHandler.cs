@@ -1,5 +1,4 @@
-﻿using Blog.CQRS.Application.Blog.Commands.UpdateBlog;
-using Blog.CQRS.Domain.Entities;
+﻿using Blog.CQRS.Domain.Entities;
 using Blog.CQRS.Domain.Interfaces;
 using MediatR;
 
